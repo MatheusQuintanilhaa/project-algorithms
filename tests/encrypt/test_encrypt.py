@@ -9,6 +9,7 @@ def test_encrypt_message():
 assert encrypt_message("message", 3) == "sem_egas"
 # assert encrypt_message("trybe", 5) == "ebyrt"
 
+
 # Teste para chave par
 assert encrypt_message("message", 4) == "ega_ssem"
 # assert encrypt_message("trybe", 2) == "eybtr"
