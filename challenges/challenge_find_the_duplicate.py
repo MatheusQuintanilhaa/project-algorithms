@@ -1,5 +1,7 @@
 def find_duplicate(nums):
-    if not isinstance(nums, list) or any(not isinstance(num, int) for num in nums):
+    if not isinstance(nums, list) or any(
+        not isinstance(num, int) for num in nums
+    ):
         return False
 
     counter = {}
