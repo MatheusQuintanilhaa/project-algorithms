@@ -6,7 +6,7 @@ from challenges.challenge_encrypt_message import encrypt_message
 def test_encrypt_message():
     pass
 
- # Teste para chave ímpar
+# Teste para chave ímpar
     assert encrypt_message("message", 3) == "sem_egas"
     # assert encrypt_message("trybe", 5) == "ebyrt"
 
